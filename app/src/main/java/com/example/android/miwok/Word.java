@@ -21,6 +21,13 @@ public class Word {
      */
     private static final int NO_IMAGE_PROVIDED = -1;
 
+    /**
+     * name of the miwok song
+     */
+    private int mMiwokSong ;
+
+
+
     // Create a new Word object.
 
     //construct of a new word for Phrase category
@@ -29,10 +36,12 @@ public class Word {
      *
      * @param defaultTranslation
      * @param miwokTranslation
+     * @param miwokSong
      */
-    public Word(String defaultTranslation, String miwokTranslation){
+    public Word(String defaultTranslation, String miwokTranslation, int miwokSong){
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
+        mMiwokSong = miwokSong;
     }
 
     //construct of a new word for orther categories
@@ -42,11 +51,13 @@ public class Word {
      * @param defaultTranslation
      * @param miwokTranslation
      * @param imageResourdeId
+     * @param miwokSong
      */
-    public Word(String defaultTranslation, String miwokTranslation, int imageResourdeId){
+    public Word(String defaultTranslation, String miwokTranslation, int imageResourdeId, int miwokSong){
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mImageResourceId = imageResourdeId;
+        mMiwokSong = miwokSong;
     }
 
        // get the default word
@@ -74,4 +85,18 @@ public class Word {
         return mImageResourceId!=NO_IMAGE_PROVIDED;
     }
 
+    /**
+     * get the mMiwoksong
+     */
+     public int getMiwokSong(){ return mMiwokSong;}
+
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                ", mMiwokTranslation='" + mMiwokTranslation + '\'' +
+                ", mImageResourceId=" + mImageResourceId +
+                ", mMiwokSong=" + mMiwokSong +
+                '}';
+    }
 }

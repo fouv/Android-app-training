@@ -23,14 +23,14 @@
 
     <TextView
         android:id="@+id/miwok_text_view"
-        android:layout_height="0dp"
         android:layout_width="match_parent"
-        tools:text="lutti"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="bottom"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/white"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        tools:text="lutti" />
 
     <TextView
         android:id="@+id/default_text_view"
@@ -42,4 +42,5 @@
         android:layout_width="match_parent"
         tools:text="one" />
 </LinearLayout>
-</LinearLayout>
+
+    </LinearLayout>

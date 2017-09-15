@@ -88,6 +88,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
             imageView.setVisibility(View.GONE);
         }
 
+
         //set the background color for the list item
         View textContainer = listItemView.findViewById(R.id.category_colors);
 
