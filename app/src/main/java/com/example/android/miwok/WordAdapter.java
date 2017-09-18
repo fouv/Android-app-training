@@ -90,7 +90,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
 
         //set the background color for the list item
-        View textContainer = listItemView.findViewById(R.id.category_colors);
+        View textContainer = listItemView.findViewById(R.id.text_container);
 
         // find the color
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
