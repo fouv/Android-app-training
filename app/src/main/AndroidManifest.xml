@@ -15,41 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".PhrasesActivity"
-            android:parentActivityName="com.example.android.miwok.MainActivity"><!--add the up button -->
-            android:label="@string/category_phrases">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwok.MainActivity" /></activity>
-        <activity
-            android:name=".NumbersActivity"
-            android:parentActivityName="com.example.android.miwok.MainActivity"
-            android:label="@string/category_numbers">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwok.MainActivity" />
-        </activity>
-        <activity
-            android:name=".FamilyActivity"
-            android:parentActivityName="com.example.android.miwok.MainActivity"
-            android:label="@string/category_family">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwok.MainActivity" />
-        </activity>
-        <activity
-            android:name=".ColorsActivity"
-            android:parentActivityName="com.example.android.miwok.MainActivity"
-            android:label="@string/category_colors">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwok.MainActivity" />
-        </activity>
     </application>
 
 </manifest>

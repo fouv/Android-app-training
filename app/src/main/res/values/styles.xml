@@ -16,4 +16,10 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">?android:textAppearanceMedium</item>
+        <item name = "tabTextColor">@android:color/white</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        </style>
 </resources>
